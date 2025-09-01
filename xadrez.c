@@ -22,6 +22,21 @@ int main() {
         printf("Esquerda\n");
         k++;
     } while (k < 8);
+  
+   
+    // ------------------- CAVALO -------------------
+    printf("\nMovimento da Cavalo:\n");
+     int L = 1; 
+
+    while (L--) {
+        for (int i = 0; i < 2; i++) {
+            printf("Baixo\n");  
+        }
+        printf("Esquerda\n");   
+        printf("\n ");
+    }
+
+    
 
     return 0;
 }
